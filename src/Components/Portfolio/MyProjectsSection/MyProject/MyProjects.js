@@ -6,19 +6,13 @@ import { useState } from 'react';
 import ReactModal from 'react-modal';
 import ContentInfo from './ContentInfo';
 
-
-
 const MyProjects = () => {
     const [isPopupVisible, setIsPoupVisible] = useState(false);
     const [popupContent, setPopupContent] = useState(false);
 
     let infoProject = [
         { id:1, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolio", data: "23.10.2021" },
-        { id:2,photo: img1, projectSignature: "Rostik Shafar", projectName: "My seasonal busines", data: "23.10.2021" },
-        {id:3, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolio", data: "23.10.2021" },
-        {id:4, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolio", data: "23.10.2021" },
-        {id:5, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolio", data: "23.10.2021" },
-        {id:6, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolio", data: "23.10.2021" }
+        { id:2,photo: img1, projectSignature: "Rostik Shafar", projectName: "My seasonal busines", data: "23.10.2021" }
     ];
 
     const getProjectById = (projectId) => {
