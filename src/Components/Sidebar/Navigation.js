@@ -8,9 +8,6 @@ const Navigation = () => {
                 <a className="link"href="/Home">Home</a>
             </div>
             <div className="button">
-                <a className="link" href="/Catalog">Catalog</a>
-            </div>
-            <div className="button">
                 <a className="link" href="/Portfolio">Portfolio</a>
             </div>
         </div>
