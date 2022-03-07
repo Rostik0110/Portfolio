@@ -1,0 +1,33 @@
+.home-my-plans-section{
+    margin-bottom: 50px;
+  }
+  .home-my-plans-list{
+    padding: 0 0 0 17px;
+  }
+  .home-my-plans-item{
+    color: #000;
+    font-weight: bold;
+  }
+  .home-my-plans-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+  }
+  .home-my-plans-text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+  }
+  .home-main-content-title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 10px;
+  }
+

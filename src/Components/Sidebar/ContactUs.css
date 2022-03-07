@@ -1,0 +1,53 @@
+.titleMessage{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+    margin-top: 10px;
+
+  }
+
+.textMessage{
+    width: 300px;
+    height: 50px;
+}
+input, textarea {
+    outline: none;
+    border: none;
+    }
+.buttonMessage{
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;   
+    font-style: normal;
+    font-weight: bold;
+    color: #FB6D3A;
+    background: linear-gradient(#ffffff00,rgba(34, 34, 235, 0.7),rgba(255, 255, 255, 0) );
+    border-width:none !important;
+}
+.buttonMessage:hover{
+    color: #f34f13;
+    background: linear-gradient(#ffffff00,rgba(34, 34, 235, 0.6),rgba(255, 255, 255, 0) );
+}
+
+.messageBox{
+    margin-top: 50px;
+    margin-left: -15px;
+}
+
+
+@media screen and (min-width: 767px) and (max-width:1025px){
+    .textMessage{
+         width: 250px;
+
+    }
+    .titleMessage{
+
+    }
+    .buttonMessage{
+
+    }
+}

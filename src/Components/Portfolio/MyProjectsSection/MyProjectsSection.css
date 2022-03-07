@@ -1,0 +1,40 @@
+.my-projects-section{
+    width: 720px;
+    margin: 40px;
+    background: linear-gradient(to right, rgba(158, 158, 158, 0.842), #CEAD78);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width:359px) and (max-width:400px){
+    .my-projects-section{
+        width: 300px;
+        margin: auto;
+        padding: 25px;
+    }
+  }
+  @media screen and (min-width:401px) and (max-width:416px){
+    .my-projects-section{
+        width: 350px;
+        padding-right: 20px;
+        margin: 0px;
+    
+    }
+  }
+  @media screen and (min-width:319px) and (max-width:321px){
+    .main-project-container{
+      width: 300px;
+    }
+  }
+  
+  @media screen and (min-width:767px) and (max-width:1025px){
+    .main-project-container{
+      width: 700px;
+    }
+    .my-projects-section{
+        width: 400px;
+        margin: 0px;
+    }
+   
+  }

@@ -1,0 +1,22 @@
+.round {
+    display: inline-block;
+    width:250px ;
+    height: 250px;
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 300px) and (max-width:416px){
+    .sliderItem2{
+      width: 300px !important;
+    }
+  }
+
+  @media screen and (min-width:700px) and (max-width: 1025px){
+    .sliderItem2{
+      width: 400px !important;
+    }
+    .round {
+      width:400px ;
+      height: 400px;     
+    }
+  }

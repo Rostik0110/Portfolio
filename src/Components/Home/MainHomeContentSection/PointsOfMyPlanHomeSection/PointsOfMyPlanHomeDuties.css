@@ -1,0 +1,23 @@
+.points-of-my-plan-home-color{
+    color: #FB6D3A;
+  }
+  .points-of-my-plan-home-position{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  .points-of-my-plan-home-duties{
+    padding: 0 0 0 18px;
+  }
+  .points-of-my-plan-home-duty{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;    
+  }
+  .points-of-my-plan-home-block{
+    margin: 0 15px 0 0;
+  
+  }

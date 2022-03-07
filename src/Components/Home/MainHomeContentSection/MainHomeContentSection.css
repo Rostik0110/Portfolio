@@ -1,0 +1,14 @@
+.main-content-home-section{
+    padding: 100px 340px 0 90px;
+  }
+  @media screen and (min-width: 319px) and (max-width:416px){
+    .main-content-home-section{
+      padding: 10px 10px 10px 10px;
+    }
+  }
+
+  @media screen and (min-width: 767px) and (max-width:1025px){
+    .main-content-home-section{
+      padding: 10px 10px 10px 40px;
+    }
+  }

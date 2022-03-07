@@ -1,0 +1,50 @@
+.navigation-button{
+    height: 40px;
+    width: 370px ;
+    background: #1E2939;
+    display: flex;
+    flex-direction:row;
+
+}
+
+.button{
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;   
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #FB6D3A;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: #ff4400;
+}
+
+@media screen and (min-width: 359px) and (max-width:400px){
+ .navigation-button{
+    width: 350px;
+ }
+}
+@media screen and (min-width: 401px) and (max-width:416px){
+
+   }
+   
+
+@media screen and (min-width: 315px) and (max-width:325px){
+    .navigation-button{
+       width: 300px;
+    }
+   }
+
+@media screen and (min-width: 767px) and (max-width:1025px){
+    .navigation-button{
+        width: 300px;
+    }
+}
