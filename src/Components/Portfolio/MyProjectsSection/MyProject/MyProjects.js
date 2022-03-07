@@ -11,15 +11,14 @@ const MyProjects = () => {
     const [popupContent, setPopupContent] = useState(false);
 
     let infoProject = [
-        { id:1, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolio", data: "23.10.2021" },
+        { id:1, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolSio", data: "23.10.2021" },
         { id:2,photo: img1, projectSignature: "Rostik Shafar", projectName: "My seasonal busines", data: "23.10.2021" }
     ];
 
     const getProjectById = (projectId) => {
             
             const content = ContentInfo.find(word => word.id === projectId);
-            
-    return content;
+    return content.cont;
     }
 
     const onProjectTitleClick = (projectId) => {
