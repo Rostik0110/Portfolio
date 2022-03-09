@@ -27,7 +27,6 @@ let ContentInfo = [
     {id:2,title:"My seasonal busines",objectInfoArray:
         [
             {
-                description: '',
                 picture:motoImg1
             },
             {
