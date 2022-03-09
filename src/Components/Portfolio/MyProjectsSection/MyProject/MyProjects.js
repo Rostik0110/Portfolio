@@ -12,7 +12,7 @@ const MyProjects = () => {
     const {content, title} = popupContent || {};
 
     let infoProject = [
-        { id:1, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolSio", data: "23.10.2021" },
+        { id:1, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolio", data: "23.10.2021" },
         { id:2,photo: img1, projectSignature: "Rostik Shafar", projectName: "My seasonal busines", data: "23.10.2021" }
     ];
 
