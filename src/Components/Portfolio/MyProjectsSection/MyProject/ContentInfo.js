@@ -5,11 +5,9 @@ import motoImg1 from "./motoImg1.jpg"
 import motoImg2 from "./motoImg5.jpg"
 import motoImg3 from "./motoImg7.jpg"
 
-
-let ContentInfo = [
+const ContentInfo = [
     {id:1,title:"My project",objectInfoArray:
         [
-
             { 
                 description: 'I did this project at first in HTML and CSS, but then I started learning ReactJS. My first page is called "Home".On the picture you can see what it looks like.',
                 picture:Home
