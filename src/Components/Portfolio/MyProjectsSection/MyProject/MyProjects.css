@@ -115,6 +115,8 @@ background:linear-gradient(to right, rgba(158, 158, 158, 1), #CEAD78) !important
     }
     .picture{
         width: 350px;
+        display: block;
+        margin: 0 auto;
     }
     .project-avatar{
         width: 100px;
