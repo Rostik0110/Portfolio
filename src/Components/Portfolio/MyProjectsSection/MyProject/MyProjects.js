@@ -9,6 +9,7 @@ import ContentInfo from './ContentInfo';
 const MyProjects = () => {
     const [isPopupVisible, setIsPoupVisible] = useState(false);
     const [popupContent, setPopupContent] = useState(false);
+    const {content, title} = popupContent || {};
 
     let infoProject = [
         { id:1, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolio", data: "23.10.2021" },
@@ -16,10 +17,9 @@ const MyProjects = () => {
     ];
 
     const getProjectById = (projectId) => {
-            
-            const content = ContentInfo.find(word => word.id === projectId);
-            
-    return content;
+        const content = ContentInfo.find(word => word.id === projectId);
+
+        return {content:content.objectInfoArray, title:content.title};
     }
 
     const onProjectTitleClick = (projectId) => {
@@ -48,7 +48,7 @@ const MyProjects = () => {
             onRequestClose={()=>setIsPoupVisible(false)}
             >
                 <div className='close' type='button' onClick={()=>setIsPoupVisible(false)}>&#10006;</div>
-                <PopupContent content={popupContent}/>
+                <PopupContent content={content} title={title}/>
                 
             </ReactModal>
         </>
