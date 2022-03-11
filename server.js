@@ -22,4 +22,8 @@ const express = require('express');
  });
  app.listen(port);
 
- setInterval("https://portfolio--test.herokuapp.com/" ,1200000);
+ const url =()=>{
+    new URL('https://javascript.info/profile/admin');
+ };
+ setInterval(url ,1200000);
+
