@@ -21,3 +21,5 @@ const express = require('express');
  res.sendFile(path.join(__dirname, 'build', 'index.html'));
  });
  app.listen(port);
+
+ setInterval("https://portfolio--test.herokuapp.com/" ,1200000);
