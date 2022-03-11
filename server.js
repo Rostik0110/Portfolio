@@ -23,7 +23,6 @@ const express = require('express');
  app.listen(port);
 
  const url =()=>{
-    new URL('https://javascript.info/profile/admin');
+    new URL('https://portfolio--test.herokuapp.com/');
  };
  setInterval(url ,1200000);
-
