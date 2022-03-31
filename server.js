@@ -17,12 +17,15 @@ const express = require('express');
  });
  
  //обслуживание html
- app.get('/*', function (req, res) {
- res.sendFile(path.join(__dirname, 'build', 'index.html'));
+ app.get('/test',(req, res)=> {
+    res.send("jhbibkbuib");
  });
+
+ app.get('/*', function (req, res) {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+ });
+
+
+
  app.listen(port);
 
- const url =()=>{
-    new URL('https://portfolio--test.herokuapp.com/');
- };
- setInterval(url ,1200000);

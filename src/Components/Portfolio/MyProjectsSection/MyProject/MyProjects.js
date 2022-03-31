@@ -4,27 +4,33 @@ import img1 from "./img1.jpg";
 import PopupContent from './PopupContent';
 import { useState } from 'react';
 import ReactModal from 'react-modal';
-import ContentInfo from './ContentInfo';
+import ContentInfo from '../../../../Firebase/Database/ContentInfo'
 
 const MyProjects = () => {
     const [isPopupVisible, setIsPoupVisible] = useState(false);
-    const [popupContent, setPopupContent] = useState(false);
+    const [popupContent, setPopupContent] = useState(null);
     const {content, title} = popupContent || {};
+
+    console.log("content",content);
+    console.log("popupContent",popupContent);
 
     let infoProject = [
         { id:1, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolio", data: "23.10.2021" },
         { id:2,photo: img1, projectSignature: "Rostik Shafar", projectName: "My seasonal busines", data: "23.10.2021" }
     ];
 
-    const getProjectById = (projectId) => {
-        const content = ContentInfo.find(word => word.id === projectId);
+    const getProjectById = async (projectId) => {
+        const contentData = await ContentInfo.getContentInfo();
+        const content = contentData.find(word => word.id === projectId);
+        console.table({contentData, projectId, content});
 
         return {content:content.objectInfoArray, title:content.title};
     }
 
-    const onProjectTitleClick = (projectId) => {
+    const onProjectTitleClick = async(projectId) => {
         setIsPoupVisible(true);
-        setPopupContent(getProjectById(projectId))
+        const project  = await getProjectById(projectId);
+        setPopupContent(project);
     };
 
     return (
@@ -43,6 +49,7 @@ const MyProjects = () => {
             )
         })}
             <ReactModal 
+            ariaHideApp={false}
             isOpen={isPopupVisible}
             contentLabel="onRequestClose Example"
             onRequestClose={()=>setIsPoupVisible(false)}

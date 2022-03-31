@@ -5,7 +5,7 @@ import motoImg1 from "./motoImg1.jpg"
 import motoImg2 from "./motoImg5.jpg"
 import motoImg3 from "./motoImg7.jpg"
 
-const ContentInfo = [
+const ContentInfoo = [
     {id:1,title:"My project",objectInfoArray:
         [
             { 
@@ -40,4 +40,4 @@ const ContentInfo = [
 ]
 
 
-export default ContentInfo;
+export default ContentInfoo;

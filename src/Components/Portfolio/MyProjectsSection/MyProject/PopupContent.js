@@ -1,18 +1,24 @@
 const PopupContent = (props) => {
     const { content, title } = props || {}
-
+console.log(content)
     return (
-    <div>
-        <h1>{title}</h1>
-        {content.map((projectInfoItem) => {
-            const { description, picture } = projectInfoItem || {};
-            return (<>
-                <p>{description}</p>
-                <img className='picture' src={picture} />
-            </>
+        <div>
+     <h1>{title}</h1> 
+        {content ?
+              
+        content.map((projectInfoItem, index) => {
+                const { description, picture } = projectInfoItem || {};
+                return (<div key={index}>
+                    <p>{description}</p>
+                    <img className='picture' src={picture} />
+                </div>
+                )
+            }
             )
-        }
-        )}
-    </div>)
+            : null}           
+        </div>
+
+        )
+    
 }
 export default PopupContent;
