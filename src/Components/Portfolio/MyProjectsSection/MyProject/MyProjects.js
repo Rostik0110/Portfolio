@@ -11,9 +11,6 @@ const MyProjects = () => {
     const [popupContent, setPopupContent] = useState(null);
     const {content, title} = popupContent || {};
 
-    console.log("content",content);
-    console.log("popupContent",popupContent);
-
     let infoProject = [
         { id:1, photo: img1, projectSignature: "Rostik Shafar", projectName: "My portfolio", data: "23.10.2021" },
         { id:2,photo: img1, projectSignature: "Rostik Shafar", projectName: "My seasonal busines", data: "23.10.2021" }
@@ -22,7 +19,6 @@ const MyProjects = () => {
     const getProjectById = async (projectId) => {
         const contentData = await ContentInfo.getContentInfo();
         const content = contentData.find(word => word.id === projectId);
-        console.table({contentData, projectId, content});
 
         return {content:content.objectInfoArray, title:content.title};
     }

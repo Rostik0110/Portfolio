@@ -1,6 +1,5 @@
 const PopupContent = (props) => {
-    const { content, title } = props || {}
-console.log(content)
+    const { content, title } = props || {};
     return (
         <div>
      <h1>{title}</h1> 
