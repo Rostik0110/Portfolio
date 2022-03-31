@@ -29,7 +29,7 @@ const express = require('express');
 
  app.listen(port);
 
- var http = require("http");
+ const http = require("http");
  setInterval(function() {
      http.get("http://portfolio--test.herokuapp.com");
      console.log("Перезапуск сервера")
