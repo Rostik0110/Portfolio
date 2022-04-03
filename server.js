@@ -22,7 +22,7 @@ const express = require('express');
  });
 
  app.get('/sitemap',(req, res)=> {
-   res.sendFile(__dirname, "build","sitemap.xml" );
+   res.sendFile(__dirname, "sitemap.xml" );
 });
 
  app.get('/*', function (req, res) {
