@@ -21,6 +21,10 @@ const express = require('express');
     res.send("google-site-verification: google63f22d69b9da230a.html");
  });
 
+ app.get('/sitemap',(req, res)=> {
+   res.sendFile(__dirname, "build","sitemap.xml" );
+});
+
  app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
  });
