@@ -17,14 +17,14 @@ const express = require('express');
  });
  
  //обслуживание html
- app.get('/test',(req, res)=> {
-    res.send("jhbibkbuib");
+ app.get('/google63f22d69b9da230a.html',(req, res)=> {
+    res.sendFile(__dirname, "build","google63f22d69b9da230a.html");
  });
 
  app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
  });
- 
+
  app.listen(port);
 
  const http = require("http");
