@@ -18,7 +18,7 @@ const express = require('express');
  
  //обслуживание html
  app.get('/google63f22d69b9da230a.html',(req, res)=> {
-    res.sendFile(__dirname, "build","google63f22d69b9da230a.html");
+    res.send("google-site-verification: google63f22d69b9da230a.html");
  });
 
  app.get('/*', function (req, res) {
