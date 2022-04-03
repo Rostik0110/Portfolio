@@ -24,13 +24,11 @@ const express = require('express');
  app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
  });
-
-
-
+ 
  app.listen(port);
 
  const http = require("http");
  setInterval(function() {
      http.get("http://portfolio--test.herokuapp.com");
      console.log("Перезапуск сервера")
- }, 1200000); 
+ }, 10000); 

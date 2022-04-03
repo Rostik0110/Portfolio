@@ -168,6 +168,7 @@ background:linear-gradient(to right, rgba(158, 158, 158, 1), #CEAD78) !important
     }
     
     .project-name{
+        height: 60px;
         font-style: normal;
         font-weight: bold;
         font-size: 15px;
@@ -179,6 +180,7 @@ background:linear-gradient(to right, rgba(158, 158, 158, 1), #CEAD78) !important
     
     .data{
         margin: 35px 0 0 60px;
+        margin-left: 60px;
         color: grey;
     }
 
