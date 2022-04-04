@@ -35,4 +35,4 @@ const express = require('express');
  setInterval(function() {
      http.get("http://portfolio--test.herokuapp.com");
      console.log("Перезапуск сервера")
- }, 10000); 
+ }, 1200000); 
