@@ -1,27 +1,15 @@
-<urlset xmlns="http://www.sitemaps.org/schemaps/sitemap/0.9">
-
-<url>
-
-<loc>http://rostikshafar.sytes.net/</loc>
-
-<lastmod>2022-04-03</lastmod>
-
-<priority>0.9</priority>
-
-<changefreq>weekly</changefreq>
-
-</url>
-
-<url>
-
-<loc>http://rostikshafar.sytes.net/Portfolio</loc>
-
-<lastmod>2022-04-03</lastmod>
-
-<priority>0.9</priority>
-
-<changefreq>weekly</changefreq>
-
-</url>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://rostikshafar.sytes.net/</loc>
+        <lastmod>2022-04-03</lastmod>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://rostikshafar.sytes.net/Portfolio</loc>
+        <lastmod>2022-04-03</lastmod>
+        <priority>0.9</priority>
+        <changefreq>weekly</changefreq>
+    </url>
 </urlset>
