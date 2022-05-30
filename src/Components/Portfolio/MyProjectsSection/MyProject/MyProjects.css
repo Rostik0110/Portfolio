@@ -52,7 +52,7 @@
     background: rgb(151, 26, 26);
     text-align: center;
     line-height: 2.5;
-    margin: -20px 0px auto 763px;
+    margin: -20px 0 auto 763px;
 }
 .close:hover{
     background: rgb(207, 9, 9);
@@ -78,7 +78,7 @@ background:linear-gradient(to right, rgba(158, 158, 158, 1), #CEAD78) !important
         width: 30px;
         height: 30px;
         line-height: 2;
-        margin: -22px 0px auto 292px;
+        margin: -22px 0 auto 292px;
     }
     .ReactModal__Content.ReactModal__Content--after-open{
         width: 300px;
@@ -103,7 +103,7 @@ background:linear-gradient(to right, rgba(158, 158, 158, 1), #CEAD78) !important
         width: 35px;
         height: 35px;
         line-height: 2.3;
-        margin: -21px 0px auto 337px;
+        margin: -21px 0 auto 337px;
     }
     .ReactModal__Content.ReactModal__Content--after-open{
         width: 350px;
@@ -150,7 +150,7 @@ background:linear-gradient(to right, rgba(158, 158, 158, 1), #CEAD78) !important
         width: 600px;
     }
     .close{
-        margin: -22px 0px auto 582px;
+        margin: -22px 0 auto 582px;
     }
     .my-project-box{
         width: 150px;
@@ -179,7 +179,7 @@ background:linear-gradient(to right, rgba(158, 158, 158, 1), #CEAD78) !important
     }
     
     .data{
-        margin-right: 60px;
+        margin:0 0 0 60px;
         color: grey;
     }
 
